@@ -3,8 +3,7 @@ import { Inter } from 'next/font/google';
 
 const inter = Inter({ subsets: ['latin'] });
 
-// toggle line below to see/fix the error
-export const runtime = 'experimental-edge';
+export const runtime = 'edge';
 
 export const metadata = {
   title: 'Create Next App',
