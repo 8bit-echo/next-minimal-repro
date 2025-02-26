@@ -13,6 +13,20 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.googletag = window.googletag || {cmd: []};
+              googletag.cmd.push(function() {
+                googletag.defineSlot('/22510153530/test_banner_code', [[320, 50], [970, 90], [728, 90]], 'div-gpt-ad-1740598476046-0').addService(googletag.pubads());
+                googletag.pubads().enableSingleRequest();
+                googletag.enableServices();
+              });`,
+          }}
+        />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );

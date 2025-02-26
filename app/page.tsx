@@ -1,3 +1,5 @@
+'use client';
+
 import Image from 'next/legacy/image';
 import styles from './page.module.css';
 
@@ -9,19 +11,18 @@ export default function Home() {
           Get started by editing&nbsp;
           <code className={styles.code}>app/page.tsx</code>
         </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By <Image src="/vercel.svg" alt="Vercel Logo" className={styles.vercelLogo} width={100} height={24} priority />
-          </a>
-        </div>
+        <div></div>
       </div>
 
       <div className={styles.center}>
-        <Image className={styles.logo} src="/next.svg" alt="Next.js Logo" width={180} height={37} priority />
+        <div id="div-gpt-ad-1740598476046-0" style={{ minWidth: 320, minHeight: 50, backgroundColor: 'rgba(255,255,255,0.2)' }}>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                googletag.cmd.push(function() { googletag.display('div-gpt-ad-1740598476046-0'); });`,
+            }}
+          />
+        </div>
       </div>
 
       <div className={styles.grid}>
